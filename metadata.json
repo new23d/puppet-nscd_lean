@@ -1,12 +1,18 @@
 {
-  "name": "new23d-nscd_lean",
-  "version": "0.0.1",
-  "author": "new23d",
-  "summary": "A super-lean NSCD setup to boost DNS client performance",
-  "license": "Apache 2.0",
-  "source": "https://github.com/new23d/puppet-nscd_lean.git",
-  "project_page": "https://github.com/new23d/puppet-nscd_lean",
-  "issues_url": "https://github.com/new23d/puppet-nscd_lean/issues",
-  "dependencies": []
+   "name": "new23d-nscd_lean",
+   "version": "0.0.2",
+   "author": "new23d",
+   "summary": "A super-lean NSCD setup to boost DNS client performance",
+   "license": "Apache-2.0",
+   "source": "https://github.com/new23d/puppet-nscd_lean.git",
+   "project_page": "https://github.com/new23d/puppet-nscd_lean",
+   "issues_url": "https://github.com/new23d/puppet-nscd_lean/issues",
+   "operatingsystem_support": [
+      {
+         "operatingsystem": "RedHat",
+         "operatingsystemrelease": ["6.0", "7.0"]
+      }
+   ],
+   "dependencies": [],
+   "tags": ["nscd", "dns", "cache"]
 }
-
