@@ -1,6 +1,6 @@
 {
    "name": "new23d-nscd_lean",
-   "version": "0.0.2",
+   "version": "0.0.4",
    "author": "new23d",
    "summary": "A super-lean NSCD setup to boost DNS client performance",
    "license": "Apache-2.0",
