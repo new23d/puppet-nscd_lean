@@ -1,6 +1,6 @@
 # nscd_lean
 
-A super-lean NSCD setup to boost DNS client performance. Enables only the hosts cache from NSCD and disables the rest.
+A super-lean NSCD setup to boost DNS client performance. Enables only the hosts cache from NSCD and disables the rest. Statistics with `nscd -g` are enabled as well.
 
 ### Parameters
 
