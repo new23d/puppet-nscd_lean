@@ -45,8 +45,8 @@
 	negative-time-to-live	passwd		20
 	suggested-size		passwd		211
 	check-files		passwd		yes
-	persistent		passwd		yes
-	shared			passwd		yes
+	persistent		passwd		no
+	shared			passwd		no
 	max-db-size		passwd		33554432
 	auto-propagate		passwd		yes
 
@@ -55,8 +55,8 @@
 	negative-time-to-live	group		60
 	suggested-size		group		211
 	check-files		group		yes
-	persistent		group		yes
-	shared			group		yes
+	persistent		group		no
+	shared			group		no
 	max-db-size		group		33554432
 	auto-propagate		group		yes
 
@@ -66,7 +66,7 @@
 	suggested-size		hosts		211
 	check-files		hosts		yes
 	persistent		hosts		no
-	shared			hosts		yes
+	shared			hosts		no
 	max-db-size		hosts		33554432
 
 	enable-cache		services	no
@@ -74,8 +74,8 @@
 	negative-time-to-live	services	20
 	suggested-size		services	211
 	check-files		services	yes
-	persistent		services	yes
-	shared			services	yes
+	persistent		services	no
+	shared			services	no
 	max-db-size		services	33554432
 
 	enable-cache		netgroup	no
@@ -83,6 +83,6 @@
 	negative-time-to-live	netgroup	20
 	suggested-size		netgroup	211
 	check-files		netgroup	yes
-	persistent		netgroup	yes
-	shared			netgroup	yes
+	persistent		netgroup	no
+	shared			netgroup	no
 	max-db-size		netgroup	33554432
